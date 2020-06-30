@@ -34,9 +34,9 @@ public class WatchMainActivity extends AppCompatActivity {
         }
 
         Date now = Calendar.getInstance().getTime();
-        List<Watch> dummyWathces = new ArrayList<Watch>(0);
-        dummyWathces.add(new Watch("0", now, "Korea", null, null));
+        List<Watch> dummyWatches = new ArrayList<Watch>(0);
+        dummyWatches.add(new Watch("0", now, "Korea", null, null));
 
-        mWatchListFragment.setWatches(dummyWathces);
+        mWatchListFragment.setWatches(dummyWatches);
     }
 }
